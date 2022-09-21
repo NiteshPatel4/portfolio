@@ -83,12 +83,26 @@ a:hover {
     color: antiquewhite;
     height: 50vh;
     text-align: center;
+    margin-top: 5rem;
 }
 
+.project-container {
+    display: flex;
+    justify-content: space-around;
+
+}
 .card{
     height: 50px;
-    display: flex;
+    margin-top: 4rem;
+    padding: 2rem;
     
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+.card p {
+    padding-top: 10px;
 }
 
 /* contact */
@@ -104,6 +118,14 @@ a:hover {
 }
 .contact img {
     height: 70px;
-    padding-top: 1rem;
+    padding-top: 2rem;
     margin: 25px;
+}
+
+/* Footer  */
+
+footer {
+    color: antiquewhite;
+    text-align: center;
+    padding-bottom: 2rem;
 }
